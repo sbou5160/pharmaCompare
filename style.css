@@ -1,0 +1,15 @@
+.main-container{
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#search{
+    width: 250px;
+}
+
+#search:focus{
+    outline: none;
+}
